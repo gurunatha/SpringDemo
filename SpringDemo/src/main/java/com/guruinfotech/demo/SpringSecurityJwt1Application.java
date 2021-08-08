@@ -11,7 +11,7 @@ public class SpringSecurityJwt1Application {
 	
 	@GetMapping("/index")
 	public String hello() {
-		System.out.println("==============");
+		System.out.println("================");
 		return "Hello World";
 	}
 
